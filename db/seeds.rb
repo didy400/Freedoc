@@ -32,6 +32,6 @@ City.destroy_all
         city: city
     )
     City.create!(
-        name: Faker::
+        name: Faker::Address.city
     )
 end
